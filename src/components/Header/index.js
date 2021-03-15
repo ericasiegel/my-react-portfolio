@@ -5,7 +5,7 @@ import Nav from '../Nav'
 function Header (props) {
 
     // return statement rendering JSX
-    // import the props for the page change property to the Nav bar from App.js
+    // pass the props for the page change property to the Nav bar from App.js
     return (
         <div>
             <header className="flex-row px-3">

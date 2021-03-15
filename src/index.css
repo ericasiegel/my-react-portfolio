@@ -298,3 +298,10 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.about {
+  width: 100%;
+  padding: 30PX;
+  justify-content: center;
+
+}
