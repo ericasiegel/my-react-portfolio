@@ -18,18 +18,18 @@ import './App.css';
 
 function App() {
   // create useState for page functionality
-  const [currentPage, handlePageChange] = useState('About')
+  const [currentPage, handlePageChange] = useState('About Me')
   // create renderPage to filter through which pages are selected
   const renderPage = () => {
     // Add a switch statement that will return the appropriate component of the 'currentPage'
     switch (currentPage) {
-      case "About":
+      case "About Me":
         return <About />;
-      case "Projects": 
+      case "My Projects": 
         return <Project />;
-      case "Contact":
+      case "Contact Me":
         return <Contact />;
-      case "Resume":
+      case "My Resume":
         return <Resume />;
       default:
         return <About />

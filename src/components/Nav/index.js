@@ -1,17 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav (props) {
 
-const tabs = ['About', 'Projects', 'Contact', 'Resume'];
+const tabs = ['About Me', 'My Projects', 'Contact Me', 'My Resume'];
+
+ // useEffect hook used for updating the current page on document.title
+ useEffect(() => {
+    document.title = `Erica Siegel | ${props.currentPage}`;
+  }, [props.currentPage]);
   return (
     <ul className="flex-row">
       {tabs.map(tab => (
-        <li className="mx-2" key={tab}>
+        <li className="mx-3" key={tab}>
           <a
             href={'#' + tab.toLowerCase()}
             onClick={() => props.handlePageChange(tab)}
             className={
-              props.currentPage === tab ? 'nav-link active' : 'nav-link'
+              props.currentPage === tab ? 'navActive' : 'ul'
             }
           >
             {tab}
