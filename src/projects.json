@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "The Pet Finder",
+        "image": "./assets/images/thedogspot.jpeg",
+        "github": "https://github.com/nrhuizar/The-Pet-Rescuer.git",
+        "link": "https://nrhuizar.github.io/The-Pet-Rescuer/"
+    },
+    {
+        "id": 2,
+        "name": "myCipe",
+        "image": "./assets/images/mycipe.png",
+        "github": "https://github.com/naomiilang/myCipe.git",
+        "link": "https://mycipeteam.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "CMs Tech Blog",
+        "image": "./assets/images/techblog.png",
+        "github": "https://github.com/ericasiegel/cms-blog.git",
+        "link": "https://cms-blog-db.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "name": "Work Day Scheduler",
+        "image": "./assets/images/dayscheduler.jpeg",
+        "github": "https://github.com/ericasiegel/daily-calendar.git",
+        "link": "https://ericasiegel.github.io/daily-calendar/"
+    },
+    {
+        "id": 5,
+        "name": "Weather Dashboard",
+        "image": "./assets/images/weatherdash.jpeg",
+        "github": "https://github.com/ericasiegel/weather-dashboard.git",
+        "link": "https://ericasiegel.github.io/weather-dashboard/"
+    },
+    {
+        "id": 6,
+        "name": "My Team Generator",
+        "image": "./assets/images/myteam.png",
+        "github": "https://github.com/ericasiegel/my-team.git",
+        "link": "https://ericasiegel.github.io/my-team/dist/index.html"
+    }
+]
