@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <Header  currentPage={currentPage} handlePageChange={handlePageChange} />
-      <div>
+      <div className='content'>
         {
           // Render the component returned by 'renderPage()'
           renderPage(currentPage)

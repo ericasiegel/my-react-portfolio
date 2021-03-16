@@ -34,10 +34,15 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: var(--darker);
+  /* background-image: linear-gradient(var(--darker), var(--dark)); */
   color: var(--light);
   font-family: 'Poiret One', poiret-one;
 
+}
+
+.content {
+  background-image: linear-gradient(var(--darker), var(--dark));
 }
 
 h1,
@@ -63,6 +68,7 @@ h2 {
 h3 {
   font-size: 1.75rem;
   text-decoration: underline;
+  padding-bottom: 20px;
 }
 
 h4 {
@@ -93,7 +99,8 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--darker);
+  /* background-image: linear-gradient(var(--darker), var(--dark)); */
 }
 
 header a {
