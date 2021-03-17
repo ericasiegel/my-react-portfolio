@@ -1,27 +1,37 @@
+// import React and useState from react
 import React, { useState } from 'react';
+// import the validateEmail helper
 import { validateEmail } from '../../utils/helpers';
 
 function Contact () {
+    // hook that manages the form data and clears the fields on page reloading
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-
+    // set the initial state of the error message to an empty string
+    // set the hook to handle the error messages
     const [errorMessage, setErrorMessage] = useState('');
+    // destructure fromState into it's named properties
     const { name, email, message } = formState;
-  
+
+    // prevent the default action from the form submit and handle submit error message
     const handleSubmit = (e) => {
       e.preventDefault();
       if (!errorMessage) {
         console.log('Submit Form', formState);
       }
     };
-  
+    // sync the internal state of the component formState with the use input from the DOM
     const handleChange = (e) => {
+      // validate the email
       if (e.target.name === 'email') {
         const isValid = validateEmail(e.target.value);
+        // conditional validation where if it is truthy it is assigned an empty string
         if (!isValid) {
           setErrorMessage('Your email is invalid.');
         } else {
           setErrorMessage('');
         }
+        // check the message and name form elements to see if they are left blank.
+        // if the fields are left blank send a message to the bottom of the contact form
       } else {
         if (!e.target.value.length) {
           setErrorMessage(`${e.target.name} is required.`);
@@ -30,11 +40,12 @@ function Contact () {
         }
       }
       if (!errorMessage) {
+        // update the formState for each property
         setFormState({ ...formState, [e.target.name]: e.target.value });
         console.log('Handle Form', formState);
       }
     };
-
+    // render the contact form
     return (
         <div>
             <h3>Contact Me</h3>

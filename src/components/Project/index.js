@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-// import the projects array
-
 import ProjectCard from '../ProjectCard';
 import Wrapper from '../Wrapper';
 
 
 function Project() {
-    // use useState to use the new variable 'projectList' and connect it to the projects aray
+    // use useState to use the new variable 'projectList' and connect it to the projects array
     const [projectList] = useState([
         {
             id: 1,
@@ -57,7 +55,7 @@ function Project() {
             link: "https://es-budget-tracker.herokuapp.com/"
         }
     ]);
-    // map through the project list and render a card for each project
+    // map through the project list and destructure the elements of the projectList array to send to the card
     return (
         <div>
             <h3>My Projects</h3>
