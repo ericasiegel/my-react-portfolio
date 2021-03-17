@@ -1,8 +1,9 @@
 
 main {
 	margin: 0 auto;
-	max-width: 90%;
+	max-width: 100%;
   padding: 50px 30px;
+
 }
 :root {
   --primary: #ACCBE1;
@@ -24,7 +25,8 @@ main {
 
 html,
 body {
-  min-height: 100%;
+  height: 100%;
+  background-image: linear-gradient(var(--darker), var(--dark));
 }
 
 body {
@@ -34,7 +36,8 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--darker);
+  min-height: 100%;
+  /* background: var(--darker); */
   /* background-image: linear-gradient(var(--darker), var(--dark)); */
   color: var(--light);
   font-family: 'Poiret One', poiret-one;
@@ -42,7 +45,8 @@ body {
 }
 
 .content {
-  background-image: linear-gradient(var(--darker), var(--dark));
+  /* background-image: linear-gradient(var(--darker), var(--dark)); */
+  min-height: 100%;
 }
 
 h1,
@@ -99,7 +103,7 @@ a:hover {
 }
 
 header {
-  background: var(--darker);
+  /* background: var(--darker); */
   padding-left: 20px;
   padding-top: 20px;
   /* background-image: linear-gradient(var(--darker), var(--dark)); */
@@ -338,7 +342,7 @@ footer {
   width: 100%;
   height: 80px;
   display: flex;
-  background-color: var(--dark);
+  /* background-color: var(--dark); */
   color: white;
   text-align: center;
   justify-content: center;
