@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 function Nav (props) {
-// 
+// nav bar array to set the page links
 const links = ['About Me', 'My Projects', 'Contact Me', 'My Resume'];
 
  // useEffect hook used for updating the current page on document.title

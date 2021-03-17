@@ -168,10 +168,15 @@ input:focus {
 ul {
   margin-top: 1.5rem;
   margin-bottom: 0;
+  padding: 0;
 }
 
 li {
   list-style: none;
+}
+
+nav {
+  padding-left: 20px;
 }
 
 nav a:hover {
