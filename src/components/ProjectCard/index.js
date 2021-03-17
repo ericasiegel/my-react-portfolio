@@ -10,8 +10,8 @@ function ProjectCard(props) {
       <img src={props.image} alt={props.name} />
       <div className='box-content'>
         <h4 className='title'>{props.name}</h4>
-        <span class='post'>{props.description}</span>
-          <ul class="icon">
+        <span className='post'>{props.description}</span>
+          <ul className="icon">
             <li><a href={props.link} target="_blank"><FaHome /></a></li>
             <li><a href={props.github} target="_blank"><FaGithub /></a></li>
           </ul>
