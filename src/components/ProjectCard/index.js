@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { FaGithub, FaHome } from 'react-icons/fa';
 
 function ProjectCard(props) {
   
@@ -11,8 +12,8 @@ function ProjectCard(props) {
         <h4 className='title'>{props.name}</h4>
         <span class='post'>{props.description}</span>
           <ul class="icon">
-            <li><a href={props.link}><i class="fa fa-search"></i></a></li>
-            <li><a href={props.github}><i class="fa fa-link"></i></a></li>
+            <li><a href={props.link}><FaHome /></a></li>
+            <li><a href={props.github}><FaGithub /></a></li>
           </ul>
       </div>
     </div>

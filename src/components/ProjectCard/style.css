@@ -4,11 +4,11 @@
   overflow: hidden;
   transition: all 0.3s ease 0s;
 }
-.box:hover{ filter: drop-shadow(8px 8px 10px gray); }
+.box:hover{ filter: drop-shadow(8px 8px 10px #0B2545); }
 .box:before,
 .box:after{
   content: '';
-  background: linear-gradient(45deg, #FEAC5E,#C779D0,#4BC0C8);
+  background: linear-gradient(45deg, #0B2545, #007FFF, #CE6D8B);
   width: 50%;
   height: 100%;
   box-shadow: 0 0 10px rgba(0,0,0,0.9);
@@ -37,7 +37,7 @@
   filter: blur(3px) hue-rotate(50deg);
 }
 .box .box-content{
-  color: #CEE5F2;
+  color: #EEF1EF;
   width: 70%;
   transform: translateX(-50%) translateY(-50%) scale(0);
   text-align: center;
@@ -91,7 +91,7 @@
 }
 .box .icon li a:hover{
   color: #fff;
-  background: #13315C;
+  background: #2f195f;
   text-shadow: 0 0 2px #fff;
 }
 @media only screen and (max-width:990px){

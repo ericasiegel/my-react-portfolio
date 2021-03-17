@@ -6,11 +6,11 @@ main {
 }
 :root {
   --primary: #ACCBE1;
-  --secondary: #19647E;
+  --secondary: #A288E3;
   --tertiary: #9E4770;
   --light: #CEE5F2;
-  --dark: #13315C;
-  --darker: #0D0A0B;
+  --dark: #2f195f;
+  --darker: #0f1020;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -100,6 +100,8 @@ a:hover {
 
 header {
   background: var(--darker);
+  padding-left: 20px;
+  padding-top: 20px;
   /* background-image: linear-gradient(var(--darker), var(--dark)); */
 }
 
@@ -231,6 +233,10 @@ textarea {
 .px-2 {
   padding-right: var(--spacing-two);
   padding-left: var(--spacing-two);
+}
+
+.px-5 {
+  padding-left: 60px;
 }
 
 .py-1 {
