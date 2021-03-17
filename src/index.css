@@ -319,3 +319,27 @@ a {
   justify-content: center;
 
 }
+.icon {
+  color: #CEE5F2;
+  font-size: 30px;
+  
+}
+.icons {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background-color: var(--dark);
+  color: white;
+  text-align: center;
+  justify-content: center;
+}

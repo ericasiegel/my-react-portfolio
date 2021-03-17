@@ -43,6 +43,7 @@ function App() {
           // Render the component returned by 'renderPage()'
           renderPage(currentPage)
         }
+        <Footer />
       </div>
     </div>
   );
