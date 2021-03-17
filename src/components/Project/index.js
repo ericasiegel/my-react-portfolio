@@ -11,7 +11,7 @@ function Project() {
         {
             id: 1,
             name: "The Pet Finder",
-            image: "./assets/images/thedogspot.jpeg",
+            image: "./assets/images/dogspot.png",
             description: "Discover your favorite dog breeds. Find the breed that is right for you and save them to your favorites.",
             github: "https://github.com/nrhuizar/The-Pet-Rescuer.git",
             link: "https://nrhuizar.github.io/The-Pet-Rescuer/"
@@ -26,7 +26,7 @@ function Project() {
         },
         {
             id: 3,
-            name: "CMs Tech Blog",
+            name: "Tech Blog",
             image: "./assets/images/techblog.png",
             description: "Connect with other professionals in the Tech field and share your comments on current and new tech.",
             github: "https://github.com/ericasiegel/cms-blog.git",
@@ -35,7 +35,7 @@ function Project() {
         {
             id: 4,
             name: "Work Day Scheduler",
-            image: "./assets/images/dayscheduler.jpeg",
+            image: "./assets/images/dailycalendar.png",
             description: "An active daily calendar where you can save your schedule by the hour.",
             github: "https://github.com/ericasiegel/daily-calendar.git",
             link: "https://ericasiegel.github.io/daily-calendar/"
@@ -43,18 +43,18 @@ function Project() {
         {
             id: 5,
             name: "Weather Dashboard",
-            image: "./assets/images/weatherdash.jpeg",
+            image: "./assets/images/forecast.png",
             description: "Find your daily and 5-Day forecast in a city around the world.",
             github: "https://github.com/ericasiegel/weather-dashboard.git",
             link: "https://ericasiegel.github.io/weather-dashboard/"
         },
         {
             id: 6,
-            name: "My Team Generator",
-            image: "./assets/images/myteam.png",
-            description: "Generate a contact list for your employees.",
-            github: "https://github.com/ericasiegel/my-team.git",
-            link: "https://ericasiegel.github.io/my-team/dist/index.html"
+            name: "My Budget Tracker",
+            image: "./assets/images/budget.png",
+            description: "Track your budget on and offline",
+            github: "https://github.com/ericasiegel/track-my-budget.git",
+            link: "https://es-budget-tracker.herokuapp.com/"
         }
     ]);
     // map through the project list and render a card for each project

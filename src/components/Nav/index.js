@@ -15,7 +15,7 @@ const links = ['About Me', 'My Projects', 'Contact Me', 'My Resume'];
   return (
     <ul className="flex-row">
       {links.map(link => (
-        <li className="mx-3" key={link}>
+        <li className="mx-2" key={link}>
           <a
             href={'#' + link.toLowerCase()}
             onClick={() => props.handlePageChange(link)}
