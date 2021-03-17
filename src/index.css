@@ -176,6 +176,7 @@ li {
 
 nav a:hover {
   text-decoration: none;
+  color: var(--secondary);
 }
 
 nav  li {
