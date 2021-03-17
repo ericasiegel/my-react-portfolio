@@ -1,3 +1,5 @@
+/* card and css from https://www.bestjquery.com/lab/hover-effects/page/8/ */
+
 .box{
   font-family: 'Cabin', sans-serif;
   position: relative;
@@ -9,6 +11,7 @@
 .box:after{
   content: '';
   background: linear-gradient(45deg, #0B2545, #007FFF, #CE6D8B);
+  /* background-color: #0B2545; */
   width: 50%;
   height: 100%;
   box-shadow: 0 0 10px rgba(0,0,0,0.9);
