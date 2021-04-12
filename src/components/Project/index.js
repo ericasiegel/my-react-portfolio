@@ -7,6 +7,14 @@ function Project() {
     // use useState to use the new variable 'projectList' and connect it to the projects array
     const [projectList] = useState([
         {
+            id: 7,
+            name: "LA Locals",
+            image: "./assets/images/la-locals.png",
+            description: "Find the person who is right for you right in your backyard. Connection is closer than you think!",
+            github: "https://github.com/stepheff1994/la-locals-project.git",
+            link: "http://la-locals.herokuapp.com/"
+        },
+        {
             id: 1,
             name: "The Pet Finder",
             image: "./assets/images/dogspot.png",
